@@ -1,5 +1,5 @@
 
- # Student Marks System
+#  # Student Marks System
 
 _Gujarati = int(input("Enter Gujrati Marks :)"))
 _Hindi = int(input("Enter Hindi Marks :)"))
@@ -17,16 +17,8 @@ print("Persentage Is :) ",percentage)
 
 
 
-# shopping bill calculator
 
-# price = int(input("Enter Product Prise : )"))
-# Quantity = int(input("Enter Quantity : )"))
 
-# Total_Bill = price * Quantity
-
-# Discount = int(input("Enter Discount :)"))
-
-# print("Total Price :)",Total_Bill)
 
 
 
