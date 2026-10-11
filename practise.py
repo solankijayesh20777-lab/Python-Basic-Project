@@ -1,5 +1,5 @@
 
-#  # Student Marks System
+# #  # Student Marks System
 
 _Gujarati = int(input("Enter Gujrati Marks :)"))
 _Hindi = int(input("Enter Hindi Marks :)"))
@@ -13,8 +13,6 @@ print("Total Marks Is :)",Marks)
 total = 500
 percentage = (Marks/total)*100
 print("Persentage Is :) ",percentage)
-
-
 
 
 
