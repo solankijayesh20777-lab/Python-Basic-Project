@@ -1,0 +1,155 @@
+list + Factorial
+
+Create a list of numbers and find the factorial of each number.
+Take 5 numbers from the user and store them in a list. Find their factorials.
+Store the factorial of each list element in a new list.
+Find factorial only for even numbers in a list.
+Find factorial only for odd numbers in a list.
+Find the sum of all factorials in a list.
+Find the largest factorial from a list.
+Find the smallest factorial from a list.
+Count how many elements have factorial greater than 100.
+Find factorial of each digit in a list.
+
+
+
+ # question 1
+
+# numbers = [12, 5, 8, 21, 4, 15, 30, 7, 18, 10]
+
+# sum = 0
+
+# for i in numbers:
+#     sum +=i
+#     print(sum)
+
+
+# # question 2 :
+
+# numbers = [12, 5, 8, 21, 4, 15, 30, 7, 18, 10]
+
+# sum = 0
+# count = 0
+
+# for i in numbers:
+#     if i % 2 == 0:
+#         sum +=i
+#         count +=1
+    
+#     average = sum / count
+#     print(average)
+
+# # question 3 :
+
+# numbers = [12, 5, 8, 21, 4, 15, 30, 7, 18, 10]
+
+# largest = numbers[0]
+
+# for i in numbers:
+#     if i > largest:
+#         largest = i
+# print(largest)
+
+# # Question 4:
+
+# numbers = [12, 5, 8, 21, 4, 15, 30, 7, 18, 10]
+
+# smallest = numbers[0]
+
+# for i in numbers:
+#     if i < smallest:
+#         smallest = i
+# print(smallest)
+
+# # Qyestion 5:
+
+# numbers = [12, 5, 8, 21, 4, 15, 30, 7, 18, 10]
+
+# even = []
+
+# for i in numbers:
+#     if i % 2 == 0:
+#         even.append(i)
+# print(even)
+
+
+
+# Question 6 :
+
+numbers = [12, 5, 8, 21, 4, 15, 30, 7, 18, 10]
+
+odd = []
+
+for i in numbers:
+    if i % 2 != 0:
+        odd.append(i)
+print(odd)
+
+
+# Question 7 :
+
+numbers = [12, 5, 8, 21, 4, 15, 30, 7, 18, 10]
+
+average = []
+
+for i in numbers:
+    if i > 13:
+         average.append(i)
+print(average)
+        
+# # Question 8 :
+numbers = [12, 5, 8, 21, 4, 15, 30, 7, 18, 10]
+
+count = 0
+
+for i in numbers:
+    if i > 10:
+      count +=1
+print(count)
+
+# Question 9 :
+
+
+numbers = [12, 5, 8, 21, 4, 15, 30, 7, 18, 10]
+even = []
+fact = 0
+
+for i in numbers:
+    if i % 2 == 0:
+        fact = 1
+
+        for i in range(i,0,-1):
+            fact *=i
+        even.append(fact)
+
+print(even)
+
+
+# question 10 :
+
+numbers = [12, 5, 8, 21, 4, 15, 30, 7, 18, 10]
+
+largest = 0
+second = 0
+
+for i in numbers:
+    if i > largest:
+        second = largest
+        largest = i
+    elif i > second  and i != largest:
+        second = i
+print(second)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
